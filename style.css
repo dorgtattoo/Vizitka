@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #8d54e980, #4777e681), url(https://look.com.ua/pic/201706/1920x1080/look.com.ua-220099.jpg);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 35px -2px;
+    justify-content: center;
+    position: relative;
+}
+
+nav ul {
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    border-radius: 30px 0 0 30px;
+}
+
+.about {
+    border-radius: 0 30px 30px 0;
+}
+
+nav ul li {
+    display: flex;
+    flex-flow: nowrap;
+    height: 50px;
+    width: 80px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    align-self: center;
+    text-decoration: none;
+    color: #000;
+    vertical-align: middle;
+}
+
+nav ul li:hover {
+    display: flex;
+    flex-flow: nowrap;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.199);
+    opacity: 100;
+    transition: 0.2s;
+}
+
+nav ul li a:hover {
+    color: white;
+    opacity: 100;
+    transition: 0.2s;
+}
+
+.rightBlock {
+    display: flex;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.37);
+    float: right;
+    justify-content: center;
+    margin: 0;
+    margin-right: 0;
+    justify-self: right;
+}
+
+.rightBlock .progFoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
