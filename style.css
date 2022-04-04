@@ -10,7 +10,7 @@ body {
 nav {
     display: flex;
     height: 50px;
-    width: 400px;
+    width: 600px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 5px 5px 35px -2px;
@@ -41,7 +41,7 @@ nav ul li {
     display: flex;
     flex-flow: nowrap;
     height: 50px;
-    width: 80px;
+    width: 130px;
     text-decoration: none;
     text-align: center;
     vertical-align: middle;
@@ -63,29 +63,44 @@ nav ul li:hover {
     height: 50px;
     background-color: rgba(0, 0, 0, 0.199);
     opacity: 100;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 nav ul li a:hover {
     color: white;
     opacity: 100;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .rightBlock {
     display: flex;
-    width: 800px;
+    flex-direction: column;
+    width: 700px;
     background-color: rgba(0, 0, 0, 0.37);
     float: right;
-    justify-content: center;
     margin: 0;
     margin-right: 0;
     justify-self: right;
 }
 
 .rightBlock .progFoto {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    margin-top: 100px;
+    margin: 100px;
+    box-shadow: 0 0 15px #eee;
+    align-self: center;
+}
+
+.progInfoHead {
+    align-self: center;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 10px rgba(70, 68, 68, 0.774);
+    border: solid 0.5px rgba(238, 238, 238, 0.616);
+    padding: 10px;
+    background-color: rgba(238, 238, 238, 0.26);
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.555);
 }
