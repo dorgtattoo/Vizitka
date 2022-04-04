@@ -5,6 +5,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     justify-content: space-between;
+    background-attachment: fixed;
+    max-block-size: auto;
+    margin: 0;
 }
 
 nav {
@@ -16,6 +19,8 @@ nav {
     box-shadow: 5px 5px 35px -2px;
     justify-content: center;
     position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 nav ul {
@@ -81,13 +86,14 @@ nav ul li a:hover {
     margin: 0;
     margin-right: 0;
     justify-self: right;
+    box-shadow: 0 0 20px rgba(238, 238, 238, 0.856);
 }
 
 .rightBlock .progFoto {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin: 100px;
+    margin: 90px;
     box-shadow: 0 0 15px #eee;
     align-self: center;
 }
@@ -97,10 +103,83 @@ nav ul li a:hover {
     margin-top: 10px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
     text-shadow: 0 0 10px rgba(70, 68, 68, 0.774);
     border: solid 0.5px rgba(238, 238, 238, 0.616);
     padding: 10px;
     background-color: rgba(238, 238, 238, 0.26);
     border-radius: 35px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.555);
+}
+
+.progInfo {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.progInfo li {
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    margin-top: 40px;
+    list-style: circle;
+    text-shadow: 0 0 10px rgba(53, 53, 53, 0.788);
+}
+
+button {
+    align-self: center;
+    height: 50px;
+    width: 300px;
+    border-radius: 35px;
+    border: solid 1px #eee;
+    background-color: rgba(238, 238, 238, 0.452);
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    text-align: center;
+    color: #eee;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+    margin-top: 80px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #eee;
+    box-shadow: 0 0 15px #eee;
+    height: 70px;
+    width: 320px;
+    vertical-align: center;
+    color: #000;
+    opacity: 100;
+    transition: 0.5s;
+}
+
+.progQuote {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin-left: 150px;
+}
+
+.quote {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 450%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.leftBlock {
+    display: flex;
+    flex-direction: column;
 }
