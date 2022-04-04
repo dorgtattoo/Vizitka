@@ -1,3 +1,7 @@
+html {
+    margin: 0;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -7,7 +11,9 @@ body {
     justify-content: space-between;
     background-attachment: fixed;
     max-block-size: auto;
+    min-block-size: auto;
     margin: 0;
+    background-position: center;
 }
 
 nav {
@@ -21,6 +27,8 @@ nav {
     position: relative;
     margin-top: 10px;
     margin-left: 30px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 nav ul {
@@ -32,14 +40,20 @@ nav ul {
     justify-items: center;
     margin: 0;
     padding: 0;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .main {
     border-radius: 30px 0 0 30px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .about {
     border-radius: 0 30px 30px 0;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 nav ul li {
@@ -53,6 +67,8 @@ nav ul li {
     justify-content: center;
     padding-left: 10px;
     padding-right: 10px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 nav ul li a {
@@ -60,6 +76,8 @@ nav ul li a {
     text-decoration: none;
     color: #000;
     vertical-align: middle;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 nav ul li:hover {
@@ -69,12 +87,16 @@ nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.199);
     opacity: 100;
     transition: 0.4s;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 nav ul li a:hover {
     color: white;
     opacity: 100;
     transition: 0.3s;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .rightBlock {
@@ -88,6 +110,10 @@ nav ul li a:hover {
     justify-self: right;
     box-shadow: 0 0 20px rgba(238, 238, 238, 0.856);
     backdrop-filter: blur(2px);
+    max-width: auto;
+    min-width: auto;
+    margin-bottom: 0;
+    height: fit-content;
 }
 
 .rightBlock .progFoto {
@@ -97,6 +123,8 @@ nav ul li a:hover {
     margin: 90px;
     box-shadow: 0 0 15px #eee;
     align-self: center;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .progInfoHead {
@@ -111,11 +139,15 @@ nav ul li a:hover {
     background-color: rgba(238, 238, 238, 0.26);
     border-radius: 35px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.555);
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .progInfo {
     align-self: center;
     margin-top: 10px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .progInfo li {
@@ -126,6 +158,8 @@ nav ul li a:hover {
     margin-top: 40px;
     list-style: circle;
     text-shadow: 0 0 10px rgba(53, 53, 53, 0.788);
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 button {
@@ -142,8 +176,11 @@ button {
     text-align: center;
     color: #eee;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     transition: 0.5s;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 button:hover {
@@ -155,6 +192,8 @@ button:hover {
     color: #000;
     opacity: 100;
     transition: 0.5s;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .progQuote {
@@ -166,6 +205,8 @@ button:hover {
     align-items: center;
     width: 800px;
     margin-left: 150px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .quote {
@@ -178,9 +219,13 @@ button:hover {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    max-block-size: auto;
+    min-block-size: auto;
 }
 
 .leftBlock {
     display: flex;
     flex-direction: column;
+    max-block-size: auto;
+    min-block-size: auto;
 }
