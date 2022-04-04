@@ -3,6 +3,8 @@ body {
     min-height: 100vh;
     background-image: linear-gradient(to right, #8d54e980, #4777e681), url(https://look.com.ua/pic/201706/1920x1080/look.com.ua-220099.jpg);
     background-repeat: no-repeat;
+    width: 100%;
+    justify-content: space-between;
 }
 
 nav {
@@ -72,7 +74,7 @@ nav ul li a:hover {
 
 .rightBlock {
     display: flex;
-    width: 500px;
+    width: 800px;
     background-color: rgba(0, 0, 0, 0.37);
     float: right;
     justify-content: center;
