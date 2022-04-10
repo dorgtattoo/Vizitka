@@ -225,9 +225,152 @@ button:hover {
     min-block-size: auto;
 }
 
+.quote2 {
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 250%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-block-size: auto;
+    min-block-size: auto;
+}
+
 .leftBlock {
     display: flex;
     flex-direction: column;
     max-block-size: auto;
     min-block-size: auto;
+}
+
+.order a {
+    text-decoration: none;
+    color: beige;
+}
+
+.order a:hover {
+    color: #000;
+}
+
+
+/* Contacts section */
+
+.contactSection {
+    width: 80%;
+    height: 80%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    background-color: rgba(245, 245, 220, 0.5);
+    border: 1px solid #eee;
+    border-radius: 35px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactSection h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 300%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+}
+
+.contactSection h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 150%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.bodyContact {
+    flex-direction: column;
+}
+
+.Telegram {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.Telegram:hover {
+    background-color: #eee;
+    box-shadow: 0 0 15px #eee;
+    height: 70px;
+    width: 320px;
+    vertical-align: center;
+    color: #000;
+    opacity: 100;
+    transition: 0.5s;
+    max-block-size: auto;
+    min-block-size: auto;
+}
+
+.Telegram a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 120%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+    text-decoration: none;
+}
+
+.Telegram a:hover {
+    color: #000;
+}
+
+.WhatsApp {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.WhatsApp a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 120%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+    text-decoration: none;
+}
+
+.WhatsApp a:hover {
+    color: #000;
+}
+
+.VK {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.VK a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #eee;
+    font-size: 120%;
+    text-shadow: 0 0 15px rgb(0, 0, 0), 0 0 25px rgba(253, 197, 255, 0.849);
+    text-align: center;
+    text-decoration: none;
+}
+
+.VK a:hover {
+    color: #000;
 }
